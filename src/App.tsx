@@ -322,24 +322,6 @@ export default function App() {
           </span>
 
           <div className="flex items-center gap-3 shrink-0">
-            <a
-              href="/billpay-146-java.zip"
-              download="billpay-146-java.zip"
-              className="inline-flex items-center gap-2 px-3.5 py-2 text-xs font-medium text-slate-700 bg-white border border-slate-200 hover:bg-slate-50 hover:border-slate-300 rounded-lg transition-colors whitespace-nowrap shrink-0"
-            >
-              <Download className="w-3.5 h-3.5 text-slate-500" aria-hidden="true" />
-              Download Java (.zip)
-            </a>
-
-            <a
-              href="/billpay-146-php.zip"
-              download="billpay-146-php.zip"
-              className="inline-flex items-center gap-2 px-3.5 py-2 text-xs font-medium text-slate-700 bg-white border border-slate-200 hover:bg-slate-50 hover:border-slate-300 rounded-lg transition-colors whitespace-nowrap shrink-0"
-            >
-              <Download className="w-3.5 h-3.5 text-slate-500" aria-hidden="true" />
-              Download PHP (.zip)
-            </a>
-
             <button
               type="button"
               onClick={handleExportCsv}
